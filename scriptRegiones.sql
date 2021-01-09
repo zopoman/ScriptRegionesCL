@@ -33,7 +33,7 @@ INSERT [dbo].[Region] ([Id], [Nombre]) VALUES (16, N'Región de Ñuble')
 
 
 
-						/******Insertar Comunas******/
+		/******Insertar Comunas******/
 GO
 INSERT [dbo].[Comuna] ([Id], [Nombre], [IdRegion]) VALUES (1, N'Cerrillos', 1)
 GO
