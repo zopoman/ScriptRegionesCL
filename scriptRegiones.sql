@@ -1,4 +1,3 @@
-SET IDENTITY_INSERT [dbo].[Region] ON 
 GO
 INSERT [dbo].[Region] ([Id], [Nombre]) VALUES (1, N'Region Metropolitana')
 GO
