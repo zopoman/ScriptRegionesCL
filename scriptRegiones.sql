@@ -1,4 +1,4 @@
-GO
+	          /******Insertar Regiones******/
 INSERT [dbo].[Region] ([Id], [Nombre]) VALUES (1, N'Region Metropolitana')
 GO
 INSERT [dbo].[Region] ([Id], [Nombre]) VALUES (2, N'Region de Tarapaca')
@@ -30,10 +30,10 @@ GO
 INSERT [dbo].[Region] ([Id], [Nombre]) VALUES (15, N'Arica y Parinacota')
 GO
 INSERT [dbo].[Region] ([Id], [Nombre]) VALUES (16, N'Región de Ñuble')
-GO
-SET IDENTITY_INSERT [dbo].[Region] OFF
-GO
-SET IDENTITY_INSERT [dbo].[Comuna] ON 
+
+
+
+						/******Insertar Comunas******/
 GO
 INSERT [dbo].[Comuna] ([Id], [Nombre], [IdRegion]) VALUES (1, N'Cerrillos', 1)
 GO
